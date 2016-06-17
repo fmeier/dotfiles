@@ -60,7 +60,7 @@ plugins=(git bundler osx rake ruby tmux hub sublime)
 
 # User configuration
 
-export PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/local/bin:/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/bin:/opt/X11/bin:/Library/TeX/texbin"
+export PATH="/usr/local/bin:/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:~/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -90,5 +90,5 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export PATH="$PATH:/usr/local/lib/node_modules" # Add npm modules to PATH for scripting
+source $HOME/.zshrc.local
 

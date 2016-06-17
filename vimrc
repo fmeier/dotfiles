@@ -13,7 +13,7 @@ call vundle#begin()
 " install Vundle bundles
 if filereadable(expand("~/.vimrc.bundles"))
   source ~/.vimrc.bundles
-  " source ~/.vimrc.bundles.local
+  source ~/.vimrc.bundles.local
 endif
 
 call vundle#end()
@@ -143,5 +143,5 @@ endif
 "   "
 "   " autocmd! bufwritepost .vimrc source ~/.vimrc
 "   " noremap! jj <ESC>
-"   source ~/.vimrc.local
+   source ~/.vimrc.local
 " endif
