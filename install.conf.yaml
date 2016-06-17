@@ -7,10 +7,7 @@
         path: bin/
         create: true
     ~/.tmux.conf: tmux.conf
-    ~/.tmux.conf.local: tmux.conf.local
     ~/.vimrc: vimrc
-    ~/.vimrc.local: vimrc.local
     ~/.vimrc.bundles: vimrc.bundles
-    ~/.vimrc.bundles.local: vimrc.bundles.local
 
 
