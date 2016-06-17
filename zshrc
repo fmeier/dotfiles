@@ -1,18 +1,18 @@
 alias mark='cd /Volumes/ice/REU/REU-2016/Mark-Team'
-alias vim='mvim -v'
+# alias vim='mvim -v'
 alias vm='ssh bitnami@colab-sbx-392.oit.duke.edu'
 alias cadnano='pythonqt /Users/yixin/dev/cadnano2/main.py 2>/dev/null &'
 alias matlab="/Applications/MATLAB_R2015b.app/bin/matlab"
 
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/yixin/.oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-# ZSH_THEME="ys"
-ZSH_THEME="spaceship"
+ZSH_THEME="ys"
+# ZSH_THEME="spaceship"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
