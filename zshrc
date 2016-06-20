@@ -1,5 +1,5 @@
 # From https://github.com/andreafrancia/trash-cli
-alias rm='echo "Wrong command; try using trash instead of rm. \n If you really need rm, use \\\rm"; false'
+alias rm='echo "Wrong command; try using trash instead of rm. \nIf you really need rm, use \\\rm"; false'
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
