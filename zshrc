@@ -1,5 +1,8 @@
+export GEM_HOME=~/.gem
 # From https://github.com/andreafrancia/trash-cli
 alias rm='echo "Wrong command; try using trash instead of rm. \nIf you really need rm, use \\\rm"; false'
+
+alias git='hub'
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh

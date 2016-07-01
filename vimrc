@@ -1,3 +1,9 @@
+" CtrlP custom settings
+let g:ctrlp_working_path_mode = 'ca' " start in current directory
+" let g:ctrlp_working_path_mode = 'aa' " start in current repo root
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlPMixed'
+
 " don't bother with vi compatibility
 set nocompatible
 
@@ -120,8 +126,8 @@ set nocursorline " don't highlight current line
 inoremap jj <ESC>
 
 " highlight search
-"set hlsearch
-"nmap <leader>hl :let @/ = ""<CR>
+set hlsearch
+nmap <leader>hl :let @/ = ""<CR>
 
 " gui settings
 if (&t_Co == 256 || has('gui_running'))
