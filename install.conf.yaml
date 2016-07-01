@@ -6,5 +6,6 @@
     ~/.tmux.conf: tmux.conf
     ~/.vimrc: vimrc
     ~/.vimrc.bundles: vimrc.bundles
+    ~/.gemrc: gemrc
 
 
