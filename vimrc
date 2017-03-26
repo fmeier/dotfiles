@@ -1,3 +1,8 @@
+let g:ycm_server_python_interpreter = '/usr/local/bin/python2'
+
+set shortmess=a
+set cmdheight=2
+
 " CtrlP custom settings
 let g:ctrlp_working_path_mode = 'ca' " start in current directory
 " let g:ctrlp_working_path_mode = 'aa' " start in current repo root
@@ -54,9 +59,9 @@ set wildmode=longest,list,full
 
 " Enable basic mouse behavior such as resizing buffers.
 set mouse=a
-if exists('$TMUX')  " Support resizing in tmux
-  set ttymouse=xterm2
-endif
+" if exists('$TMUX')  " Support resizing in tmux
+"   set ttymouse=xterm2
+" endif
 
 " keyboard shortcuts
 let mapleader = ','
@@ -129,10 +134,13 @@ inoremap jj <ESC>
 set hlsearch
 nmap <leader>hl :let @/ = ""<CR>
 
+" set background=dark
+
 " gui settings
 if (&t_Co == 256 || has('gui_running'))
   if ($TERM_PROGRAM == 'iTerm.app')
-    colorscheme solarized
+    " colorscheme "Tomorrow-Night"
+    " colorscheme solarized
   else
     colorscheme desert
   endif
