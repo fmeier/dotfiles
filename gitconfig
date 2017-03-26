@@ -6,6 +6,7 @@
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 [core]
 	excludesfile = /Users/yixin/.gitignore
+	editor = mvim -v
 [push]
 	default = simple
 [user]
@@ -14,6 +15,6 @@
 [credential]
 	helper = store
 [filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
 	required = true
-	clean = git-lfs clean %f
-	smudge = git-lfs smudge %f
