@@ -134,17 +134,18 @@ inoremap jj <ESC>
 set hlsearch
 nmap <leader>hl :let @/ = ""<CR>
 
-" set background=dark
+set background=dark
+" colorscheme "base16-default-dark"
 
-" gui settings
-if (&t_Co == 256 || has('gui_running'))
-  if ($TERM_PROGRAM == 'iTerm.app')
-    " colorscheme "Tomorrow-Night"
-    " colorscheme solarized
-  else
-    colorscheme desert
-  endif
-endif
+" " gui settings
+" if (&t_Co == 256 || has('gui_running'))
+"   if ($TERM_PROGRAM == 'iTerm.app')
+"     " colorscheme "Tomorrow-Night"
+"     " colorscheme solarized
+"   else
+"     colorscheme desert
+"   endif
+" endif
 
 " Go crazy!
 " if filereadable(expand("~/.vimrc.local"))
