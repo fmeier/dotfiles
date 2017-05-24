@@ -1,6 +1,5 @@
-export EDITOR=nvim
+export EDITOR=vim
 export GEM_HOME=~/.gem
-alias git='hub'
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
