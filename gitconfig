@@ -5,12 +5,12 @@
 	co = checkout
 	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 [core]
-	excludesfile = /Users/yixin/.gitignore
+	excludesfile = /Users/fmeier/.gitignore
 [push]
 	default = simple
 [user]
-	name = 1heart
-	email = yixin1996@gmail.com
+	name = fmeier
+	email = franzi.meier@gmail.com
 [credential]
 	helper = store
 [filter "lfs"]
